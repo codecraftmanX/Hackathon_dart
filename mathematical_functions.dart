@@ -1,13 +1,15 @@
 void main() {
-  int marks = 80; 
+  double num1 = 10.0;
+  double num2 = 5.0;
 
-  if (marks > 85) {
-    print("Excellent");
-  } else if (marks >= 75 && marks <= 85) {
-    print("Very Good");
-  } else if (marks >= 65 && marks < 75) {
-    print("Good");
-  } else {
-    print("Average");
-  }
+  print("Addition: ${addition(num1, num2)}");
+  print("Subtraction: ${subtraction(num1, num2)}");
+}
+
+double addition(double a, double b) {
+  return a + b;
+}
+
+double subtraction(double a, double b) {
+  return a - b;
 }

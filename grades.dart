@@ -1,5 +1,5 @@
 void main() {
-  int marks = 80; // replace with the student's marks
+  int marks = 80; 
 
   if (marks > 85) {
     print("Excellent");
